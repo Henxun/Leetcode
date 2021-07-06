@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlusOne", "PlusOne\PlusOne.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddBinary", "AddBinary\AddBinary.csproj", "{6BF9307F-6607-49BC-B158-B2FDB9723A52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{9C118EF3-1E4E-422A-91AD-B9120778415C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketClient", "SocketClient\SocketClient.csproj", "{9C118EF3-1E4E-422A-91AD-B9120778415C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{B490072C-EB2D-48BF-B531-559C78789064}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketServer", "SocketServer\SocketServer.csproj", "{B490072C-EB2D-48BF-B531-559C78789064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayTable", "DisplayTable\DisplayTable.csproj", "{04019789-60EC-4A9F-B0C5-0361C205A71B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +155,18 @@ Global
 		{B490072C-EB2D-48BF-B531-559C78789064}.Release|x64.Build.0 = Release|Any CPU
 		{B490072C-EB2D-48BF-B531-559C78789064}.Release|x86.ActiveCfg = Release|Any CPU
 		{B490072C-EB2D-48BF-B531-559C78789064}.Release|x86.Build.0 = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|x64.Build.0 = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Debug|x86.Build.0 = Debug|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|x64.ActiveCfg = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|x64.Build.0 = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|x86.ActiveCfg = Release|Any CPU
+		{04019789-60EC-4A9F-B0C5-0361C205A71B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
