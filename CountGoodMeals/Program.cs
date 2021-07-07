@@ -15,13 +15,8 @@ namespace CountGoodMeals
 
         static int CountPairs(int[] deliciousness)
         {
-            int ans = 0, maxVal = 0;
-
-            foreach (var num in deliciousness)
-            {
-                maxVal = Math.Max(maxVal, num);
-            }
-
+            int ans = 0, maxVal = deliciousness.Max();
+         
             int maxSum = 2 * maxVal;
             Dictionary<int, int> dic = new Dictionary<int, int>();
 
