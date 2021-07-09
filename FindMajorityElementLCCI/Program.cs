@@ -51,7 +51,7 @@ namespace FindMajorityElementLCCI
                 {
                     candidate = num;
                 }
-                else if(num == candidate)
+                if(num == candidate)
                 {
                     count++;
                 }
