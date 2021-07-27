@@ -47,7 +47,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonNode", "CommonNode\Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangeCovered", "RangeCovered\RangeCovered.csproj", "{A604286F-5EE4-4BD1-A184-61893034B20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LatestTimeByReplacingHiddenDigits", "LatestTimeByReplacingHiddenDigits\LatestTimeByReplacingHiddenDigits.csproj", "{B75B61AD-9C12-47EF-B0CC-60D0A427F94D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LatestTimeByReplacingHiddenDigits", "LatestTimeByReplacingHiddenDigits\LatestTimeByReplacingHiddenDigits.csproj", "{B75B61AD-9C12-47EF-B0CC-60D0A427F94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecondMinimumNodeInABinaryTree", "SecondMinimumNodeInABinaryTree\SecondMinimumNodeInABinaryTree.csproj", "{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +337,18 @@ Global
 		{B75B61AD-9C12-47EF-B0CC-60D0A427F94D}.Release|x64.Build.0 = Release|Any CPU
 		{B75B61AD-9C12-47EF-B0CC-60D0A427F94D}.Release|x86.ActiveCfg = Release|Any CPU
 		{B75B61AD-9C12-47EF-B0CC-60D0A427F94D}.Release|x86.Build.0 = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|x64.Build.0 = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Debug|x86.Build.0 = Debug|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|x64.ActiveCfg = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|x64.Build.0 = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|x86.ActiveCfg = Release|Any CPU
+		{E588392A-C1EE-45D6-8EA8-0CDF799ED32A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
