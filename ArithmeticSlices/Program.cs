@@ -6,7 +6,7 @@ namespace ArithmeticSlices
     {
         static void Main(string[] args)
         {
-            int[] nums = new int[] { 1, 2, 3, 8, 9, 10 };
+            int[] nums = new int[] { 2, 4, 6, 8, 10 };
             Console.WriteLine(NumberOfArithmeticSlices(nums));
         }
 

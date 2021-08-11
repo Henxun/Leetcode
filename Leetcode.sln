@@ -59,7 +59,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestUnsortedContinuousS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidTriangleNumber", "ValidTriangleNumber\ValidTriangleNumber.csproj", "{5C54DC85-FEB5-4593-824F-303820E8622C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticSlices", "ArithmeticSlices\ArithmeticSlices.csproj", "{290405E4-5ED0-41B8-9734-71833D9C93B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArithmeticSlices", "ArithmeticSlices\ArithmeticSlices.csproj", "{290405E4-5ED0-41B8-9734-71833D9C93B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArithmeticSlicesIISubsequence", "ArithmeticSlicesIISubsequence\ArithmeticSlicesIISubsequence.csproj", "{3C11F911-18B9-40A8-B142-359A4D217006}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -419,6 +421,18 @@ Global
 		{290405E4-5ED0-41B8-9734-71833D9C93B2}.Release|x64.Build.0 = Release|Any CPU
 		{290405E4-5ED0-41B8-9734-71833D9C93B2}.Release|x86.ActiveCfg = Release|Any CPU
 		{290405E4-5ED0-41B8-9734-71833D9C93B2}.Release|x86.Build.0 = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|x64.Build.0 = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C11F911-18B9-40A8-B142-359A4D217006}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
