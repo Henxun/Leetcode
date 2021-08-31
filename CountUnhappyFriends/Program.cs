@@ -7,7 +7,16 @@ namespace CountUnhappyFriends
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[][] preferences = new int[4][];
+            preferences[0] = new int[3] { 1, 2, 3 };
+            preferences[1] = new int[3] { 3, 2, 0 };
+            preferences[2] = new int[3] { 3, 1, 0 };
+            preferences[3] = new int[3] { 1, 2, 0 };
+
+            int[][] pairs = new int[2][];
+            pairs[0] = new int[2] { 0, 1 };
+            pairs[1] = new int[2] { 2, 3 };
+            Console.WriteLine(UnhappyFriends1(4, preferences, pairs));
         }
 
         static int UnhappyFriends(int n, int[][] preferences, int[][] pairs)
@@ -64,6 +73,7 @@ namespace CountUnhappyFriends
             }
 
             int[] match = new int[n];
+            Array.Fill(match, -1);
             for (int i = 0; i < pairs.Length; i++)
             {
                 match[pairs[i][0]] = pairs[i][1];
@@ -74,6 +84,8 @@ namespace CountUnhappyFriends
             for (int x = 0; x < n; x++)
             {
                 int y = match[x];
+                if (y == -1)
+                    continue;
                 int index = order[x, y];
 
                 for (int i = 0; i < index; i++)
