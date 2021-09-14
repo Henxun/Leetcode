@@ -79,7 +79,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SplitAStringInBalancedStrin
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContainerWithMostWater", "ContainerWithMostWater\ContainerWithMostWater.csproj", "{6BD023F6-329A-4A4F-AE02-005B91A33D93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfBoomerangs", "NumberOfBoomerangs\NumberOfBoomerangs.csproj", "{1411901E-E82B-4417-B4AE-DE9BB7E48619}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberOfBoomerangs", "NumberOfBoomerangs\NumberOfBoomerangs.csproj", "{1411901E-E82B-4417-B4AE-DE9BB7E48619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestWordInDictionaryThroughDeleting", "LongestWordInDictionaryThroughDeleting\LongestWordInDictionaryThroughDeleting.csproj", "{BEEF0C26-FD4B-43E3-AD88-66A695973274}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -559,6 +561,18 @@ Global
 		{1411901E-E82B-4417-B4AE-DE9BB7E48619}.Release|x64.Build.0 = Release|Any CPU
 		{1411901E-E82B-4417-B4AE-DE9BB7E48619}.Release|x86.ActiveCfg = Release|Any CPU
 		{1411901E-E82B-4417-B4AE-DE9BB7E48619}.Release|x86.Build.0 = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|x64.Build.0 = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Debug|x86.Build.0 = Debug|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|x64.ActiveCfg = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|x64.Build.0 = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|x86.ActiveCfg = Release|Any CPU
+		{BEEF0C26-FD4B-43E3-AD88-66A695973274}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
