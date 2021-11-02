@@ -97,7 +97,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakIndexInAMountainArray",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberComplement", "NumberComplement\NumberComplement.csproj", "{E83771BA-B9BB-4FB8-A5C1-7E5BC63B4342}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumMovesToEqualArrayElements", "MinimumMovesToEqualArrayElements\MinimumMovesToEqualArrayElements.csproj", "{A4018FF7-C67B-46EB-BAD2-C0252A72A575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumMovesToEqualArrayElements", "MinimumMovesToEqualArrayElements\MinimumMovesToEqualArrayElements.csproj", "{A4018FF7-C67B-46EB-BAD2-C0252A72A575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNodeInALinkedList", "DeleteNodeInALinkedList\DeleteNodeInALinkedList.csproj", "{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -685,6 +687,18 @@ Global
 		{A4018FF7-C67B-46EB-BAD2-C0252A72A575}.Release|x64.Build.0 = Release|Any CPU
 		{A4018FF7-C67B-46EB-BAD2-C0252A72A575}.Release|x86.ActiveCfg = Release|Any CPU
 		{A4018FF7-C67B-46EB-BAD2-C0252A72A575}.Release|x86.Build.0 = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|x64.Build.0 = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Debug|x86.Build.0 = Debug|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|x64.ActiveCfg = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|x64.Build.0 = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|x86.ActiveCfg = Release|Any CPU
+		{B76D1EBB-7280-4151-AA1B-9CD8F9435C68}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
